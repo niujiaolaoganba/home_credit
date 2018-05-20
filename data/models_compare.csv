@@ -1,0 +1,4 @@
+task_mode   learner   auc_cv_mean   test_auc   refit_time   best_params 
+single   clf_skl_lr   0.7263   0.0000   54 secs   {'C': 0.13255621865957046, 'penalty': 'l2', 'random_state': 42} 
+single   clf_xgb_tree   0.7562   0.0000   6 mins   {'colsample_bylevel': 0.6949432119939429, 'colsample_bytree': 0.6956989686839157, 'gamma': 0.00032378477197849684, 'learning_rate': 0.022, 'max_depth': 8, 'min_child_weight': 2.966276299185518, 'n_estimators': 430, 'nthread': 8, 'reg_alpha': 2.9692955832846997e-09, 'reg_lambda': 6.595200215532892e-06, 'seed': 42, 'subsample': 0.7706236575866141} 
+single   clf_skl_rf   0.7354   0.0000   37 secs   {'max_depth': 10, 'max_features': 0.35000000000000003, 'min_samples_leaf': 8, 'min_samples_split': 9, 'n_estimators': 30, 'n_jobs': 8, 'random_state': 42, 'verbose': 0} 

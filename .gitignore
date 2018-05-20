@@ -8,4 +8,8 @@
 *.egg
 *.egg-info
 
+/log/
 /data/rawdata/
+/data/input/
+/data/output/
+/data/submission/
