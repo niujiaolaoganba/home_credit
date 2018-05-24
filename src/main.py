@@ -12,7 +12,7 @@ train = pd.read_csv('../data/input/train.csv')
 
 X_train = train.drop('TARGET', axis = 1)
 y_train = train.TARGET
-X_test= pd.read_csv('../data/input/X_test.csv')
+X_test= pd.read_csv('../data/input/test.csv')
 # y_test = test.is_reg
 
 
