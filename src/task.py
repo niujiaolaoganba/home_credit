@@ -161,7 +161,7 @@ class Task:
         self.refit_time = time_utils.time_diff(start, end)
 
         fname = "%s/refit_test_%s_%s_[auc%.6f].csv" % (
-        config.OUTPUT_DIR, datetime.datetime.now().strftime("%Y-%m-%d-%H-%M"), self.__str__(), self.test_auc)
+        config.OUTPUT_DIR, datetime.datetime.now().strftime("%Y-%m-%d-%H-%M"), self.__str__(), self.auc_cv_mean)
         pd.DataFrame({"prediction": y_pred_test}).to_csv(fname, index=False)
 
         return self
