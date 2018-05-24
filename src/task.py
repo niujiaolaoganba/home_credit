@@ -28,7 +28,8 @@ from utils import logging_utils, time_utils
 from utils.ensemble_learner import EnsembleLearner
 
 learner_space = {
-    "single": ["clf_skl_lr", "clf_xgb_tree", "clf_skl_rf","clf_lgb_tree", "clf_cbst_tree", "ensemble",],
+    # "single": ["clf_skl_lr", "clf_xgb_tree", "clf_skl_rf","clf_lgb_tree", "clf_cbst_tree", "ensemble",],
+    "single": ["clf_lgb_tree", "clf_cbst_tree", "ensemble",],
     "stacking": ["ensemble", ],
 }
 
@@ -139,7 +140,8 @@ class Task:
         if self.verbose:
             self.logger.info("AUC")
             self.logger.info("     cv_mean: %.6f" % self.auc_cv_mean)
-            self.logger.info("     cv_test: %.6f" % auc_cv_test)
+            if self.y_test is not None:
+                self.logger.info("     cv_test: %.6f" % auc_cv_test)
             self.logger.info("Time")
             self.logger.info("     %s" % time_cost)
             self.logger.info("-" * 50)
@@ -161,7 +163,7 @@ class Task:
         self.refit_time = time_utils.time_diff(start, end)
 
         fname = "%s/refit_test_%s_%s_[auc%.6f].csv" % (
-        config.OUTPUT_DIR, datetime.datetime.now().strftime("%Y-%m-%d-%H-%M"), self.__str__(), self.test_auc)
+        config.OUTPUT_DIR, datetime.datetime.now().strftime("%Y-%m-%d-%H-%M"), self.__str__(), self.test_auc if self.test_auc>0 else self.auc_cv_mean)
         pd.DataFrame({"prediction": y_pred_test}).to_csv(fname, index=False)
 
         return self

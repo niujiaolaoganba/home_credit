@@ -1,0 +1,100 @@
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+start single model task
+optimizing clf_lgb_tree
+   Finished 10 hyper train with 3-fold cv, took 597 mins
+optimizing clf_cbst_tree
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+Change of simpleCtr will not affect combinations ctrs.
+   Finished 10 hyper train with 3-fold cv, took 270 mins
+optimizing ensemble
+   Finished 10 hyper train with 3-fold cv, took 476 mins
+start stacking model task
+optimizing ensemble
+   Finished 10 hyper train with 3-fold cv, took 2579 mins
