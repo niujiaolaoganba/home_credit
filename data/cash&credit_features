@@ -1,0 +1,57 @@
+
+cash_balance
+'MONTHS_BALANCE':'min','max','count'
+'CNT_INSTALMENT':'set','max','min'
+'CNT_INSTALMENT_FUTURE':'min','max',
+'NAME_CONTRACT_STATUS':'latest','set','nunique'
+'SK_DPD':count>0,'max',
+'SK_DPD_DEF':count>0,'max',
+'SK_DPD-SK_DPD_DEF':count>0,'max',
+
+prev_cash_features
+'MONTHS_BALANCE_min':'min'
+'MONTHS_BALANCE_max':'max'
+'MONTHS_BALANCE_cnt':'sum'
+'CNT_INSTALMENT_min':'min'
+'CNT_INSTALMENT_max':'max'
+'CNT_INSTALMENT_set':'set'
+'CNT_INSTALMENT_FUTURE_min':'min'
+'CNT_INSTALMENT_FUTURE_max':'max'
+'NAME_CONTRACT_STATUS_cntd':
+'NAME_CONTRACT_STATUS_set':set
+'NAME_CONTRACT_STATUS_latest':set
+'SK_DPD_max':max
+'SK_DPD_cnt0':sum,
+'SK_DPD_DEF_max':max
+'SK_DPD_DEF_cnt0':sum
+'SK_DPD_diff_max':max
+'SK_DPD_diff_cnt0':sum
+
+
+credit_balance
+'MONTHS_BALANCE':'min','max','count'
+'AMT_BALANCE':'min','max','sum', avg > 0,cnt0
+'AMT_CREDIT_LIMIT_ACTUAL':'min','max'
+'AMT_DRAWINGS_ATM_CURRENT':count>0,'max','min >0', 'avg >0','sum'
+'AMT_DRAWINGS_CURRENT':count>0,'max','min >0', 'avg >0','sum'
+'AMT_DRAWINGS_OTHER_CURRENT':count>0,'max','min >0', 'avg >0','sum'
+'AMT_DRAWINGS_POS_CURRENT':count>0,'max','min >0', 'avg >0','sum'
+'AMT_INST_MIN_REGULARITY':min, max, nunique
+'AMT_PAYMENT_CURRENT':sum, max, nunique
+'AMT_PAYMENT_TOTAL_CURRENT':sum, max, nunique
+'AMT_RECEIVABLE_PRINCIPAL':sum, max, nunique
+'AMT_RECIVABLE':sum, max, nunique
+'AMT_TOTAL_RECEIVABLE':sum, max, nunique
+'CNT_DRAWINGS_ATM_CURRENT':sum,avg,max
+'CNT_DRAWINGS_CURRENT':sum,avg,max
+'CNT_DRAWINGS_OTHER_CURRENT':sum,avg,max
+'CNT_DRAWINGS_POS_CURRENT':sum,avg,max
+'CNT_INSTALMENT_MATURE_CUM':set,nunique,latest
+'NAME_CONTRACT_STATUS':set,nunique
+'SK_DPD':count>0,'max',
+'SK_DPD_DEF':count>0,'max',
+'SK_DPD-SK_DPD_DEF':count>0,'max',
+
+
+credit_features
+

@@ -28,8 +28,9 @@ from utils import logging_utils, time_utils
 from utils.ensemble_learner import EnsembleLearner
 
 learner_space = {
-    "single": ["clf_skl_lr", "clf_xgb_tree", "clf_skl_rf","clf_lgb_tree", "clf_cbst_tree", "ensemble",],
-    "stacking": ["ensemble", ],
+    # "single": ["clf_lgb_tree", "clf_skl_lr", "clf_xgb_tree", "clf_skl_rf", "clf_cbst_tree", "ensemble",],
+    "single": ["clf_lgb_tree", ]
+    # "stacking": ["ensemble", ],
 }
 
 learner_name_space = {'clf_skl_lr': LogisticRegression,
@@ -218,7 +219,7 @@ class TaskOptimizer:
     def run(self):
         line_index = 1
         self.param_space = ModelParamSpace()
-        for task_mode in ("single","stacking",):
+        for task_mode in learner_space.keys():
             if task_mode not in learner_space:
                 print('%s model missed' % task_mode)
                 continue
