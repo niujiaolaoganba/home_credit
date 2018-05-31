@@ -35,11 +35,11 @@ credit_balance
 
 
 installments_payments
-'NUM_INSTALMENT_VERSION':nunique,set
+'NUM_INSTALMENT_VERSION':nunique,set,latest
 'NUM_INSTALMENT_NUMBER':min, max, nunique, count
-'DAYS_INSTALMENT':max,min,max - min
-'DAYS_ENTRY_PAYMENT':max,min,max - min
-DAYS_INSTALMENT - DAYS_ENTRY_PAYMENT:max,min,sum,mean,std
+'DAYS_INSTALMENT':max,min,max - min,median,mean
+'DAYS_ENTRY_PAYMENT':max,min,max - min,median,mean
+DAYS_INSTALMENT - DAYS_ENTRY_PAYMENT:max,min,sum,mean,std,median
 'AMT_INSTALMENT':min,max,mean,nunique
 'AMT_PAYMENT':min,max,mean,nunique
-AMT_PAYMENT- AMT_INSTALMENT:
+AMT_PAYMENT- AMT_INSTALMENT:min,max,mean,nunique
