@@ -1,0 +1,49 @@
+
+prev_features
+'SK_ID_PREV'
+'SK_ID_CURR':count
+'NAME_CONTRACT_TYPE':set,nunique,latest
+'AMT_ANNUITY':sum,avg,min,max,latest,
+'AMT_APPLICATION':sum,avg,min,max,latest
+'AMT_CREDIT':sum,avg,min,max,latest
+'AMT_DOWN_PAYMENT':sum,avg,min,max,count>0, count<0,latest
+'AMT_GOODS_PRICE':sum,avg,min,max,latest
+
+'WEEKDAY_APPR_PROCESS_START':set,nunique,latest
+'HOUR_APPR_PROCESS_START':set,nunique,median,latest
+'FLAG_LAST_APPL_PER_CONTRACT':boolean_feature
+'NFLAG_LAST_APPL_IN_DAY':boolean_feature
+
+'RATE_DOWN_PAYMENT':normal_feature,latest
+'RATE_INTEREST_PRIMARY':normal_feature,latest
+'RATE_INTEREST_PRIVILEGED':normal_feature,latest
+
+'NAME_CASH_LOAN_PURPOSE':set,latest, nunique
+'NAME_CONTRACT_STATUS':set,latest, nunique, count_vec
+'DAYS_DECISION':'mean','max','min','median',latest
+
+'NAME_PAYMENT_TYPE':set,latest, nunique, count_vec
+'CODE_REJECT_REASON':set,latest, nunique, count_vec
+'NAME_TYPE_SUITE':set,latest, nunique, count_vec
+'NAME_CLIENT_TYPE':set,latest, nunique, count_vec
+'NAME_GOODS_CATEGORY':set,latest, nunique
+'NAME_PORTFOLIO':set,latest, nunique, count_vec
+'NAME_PRODUCT_TYPE':set,latest, nunique, count_vec
+'CHANNEL_TYPE':set,latest, nunique, count_vec
+
+'SELLERPLACE_AREA':bin_count, min, max, avg,median
+'NAME_SELLER_INDUSTRY':set,latest, nunique, count_vec
+'CNT_PAYMENT':bin_count, min, max, avg
+'NAME_YIELD_GROUP':set,latest, nunique, count_vec
+'PRODUCT_COMBINATION':set,latest, nunique, count_vec
+
+'DAYS_FIRST_DRAWING':bin_count, min, max, avg
+'DAYS_FIRST_DUE':bin_count, min, max, avg
+'DAYS_LAST_DUE_1ST_VERSION':bin_count, min, max, avg
+'DAYS_LAST_DUE':bin_count, min, max, avg
+'DAYS_TERMINATION':bin_count, min, max, avg
+	365243.0    934444
+	NaN          673065
+
+'NFLAG_INSURED_ON_APPROVAL':boolean_feature
+
