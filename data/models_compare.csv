@@ -11,3 +11,5 @@ stacking   ensemble   0.7587   0.0000   17 mins   {'clf_skl_lr': {'param': {'C':
 =======
 single   clf_lgb_tree   0.7657   0.0000   2 mins   {'boosting_type': 'gbdt', 'colsample_bytree': 0.55, 'learning_rate': 0.048, 'max_depth': 4, 'metric': 'auc', 'min_child_samples': 352, 'n_estimators': 740, 'n_jobs': 16, 'num_leaves': 346, 'objective': 'binary', 'random_state': 42, 'reg_alpha': 1.2105341048315243e-05, 'reg_lambda': 2.5073778174662146e-08, 'subsample': 0.6000000000000001, 'verbose': -1} 
 >>>>>>> tmp
+task_mode   learner   auc_cv_mean   test_auc   refit_time   best_params 
+single   clf_lgb_tree   0.7673   0.0000   2 mins   {'boosting_type': 'gbdt', 'colsample_bytree': 0.6000000000000001, 'learning_rate': 0.056, 'max_depth': 7, 'metric': 'auc', 'min_child_samples': 20, 'n_estimators': 320, 'n_jobs': 16, 'num_leaves': 293, 'objective': 'binary', 'random_state': 42, 'reg_alpha': 0.29830050464716407, 'reg_lambda': 0.11908758555736262, 'subsample': 0.45, 'verbose': -1} 
